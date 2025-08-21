@@ -43,7 +43,19 @@
     myTest3();
     myTest3();
     myTest3();
-    
+    print("<h2>PHP is Fun! $x</h2>");
+
+    $a = "Hello world!";
+    $b = "Hello world!";
+
+    var_dump($a);
+    echo "<br>";
+    var_dump($b);
+
+    $cars = array("Volvo", "BMW", 1);
+
+    var_dump($cars);
+
     ?>
 </body>
 
