@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <?php
+
+    <?php 
     echo __DIR__;
   class Car{
     public $color;
@@ -57,6 +50,12 @@
 
     define("cars", ["Alfa Romeo", "BMW", "Toyota"]);
     echo cars[0];
+
+    $members = array("Peter" => "35", "Ben" => "37", "Joe" => "43");
+
+    echo "<h3>Members</h3><br>";
+
+    foreach ($members as $key => $value) {
+        echo $key . "=>" . $value . "<br>";
+    }
     ?>
-</body>
-</html>
